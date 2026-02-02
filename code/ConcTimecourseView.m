@@ -44,7 +44,7 @@ classdef ConcTimecourseView < handle
             obj.lhComplex= plot(ax, NaN, NaN, '-','Linewidth',2,'Color',obj.ConcColors(3,:),'DisplayName','Complex');
             hold(ax,'off');
             legend(ax,'show','FontName',obj.FontName,'Box','off',...
-                'BackgroundColor','none');
+                'Color','none');
 
             ax.XLimitMethod = "padded";
             ax.YLimitMethod = "padded";
