@@ -107,7 +107,7 @@ jobs:
 
       # Upload compiled CTF file to deploy Web App
       - name: Upload CTF file
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: WebApp_CTF
           path: WebAppArchive/*.ctf
